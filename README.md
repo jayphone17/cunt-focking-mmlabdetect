@@ -25,3 +25,4 @@ python demo/test.py demo/demo.jpg configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coc
 
 ![result](./figs/result.jpg)
 
+<img src="./figs/result1.jpg" alt="result1" style="zoom:67%;" />
