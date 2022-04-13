@@ -33,7 +33,7 @@ python demo/video_demo.py demo/demo.mp4 configs/faster_rcnn/faster_rcnn_r50_fpn_
 
 <img src="./figs/result1.jpg" alt="result1" style="zoom:67%;" />
 
-## ImageTestResult
+## VideoTestResult
 
 <img src="./figs/video_test.png" alt="result" style="zoom:70%;" />
 
