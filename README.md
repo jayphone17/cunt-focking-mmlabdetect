@@ -15,17 +15,27 @@ pip install openmim
 mim install mmdet
 ```
 
-## Test
+## ImageTest
 
 ```python
-python demo/test.py demo/demo.jpg configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py checkpoints/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth
+python demo/image_demo.py demo/demo.jpg configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py checkpoints/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth
 ```
 
-## Result
+## VideoTest
+
+```python
+python demo/video_demo.py demo/demo.mp4 configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py checkpoints/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth --out demo/video_test_result.mp4
+```
+
+## ImageTestResult
 
 ![result](./figs/result.jpg)
 
 <img src="./figs/result1.jpg" alt="result1" style="zoom:67%;" />
+
+## ImageTestResult
+
+<img src="./figs/video_test.png" alt="result" style="zoom:70%;" />
 
 ## Why Did I call it a cunt ?
 
